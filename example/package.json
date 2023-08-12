@@ -1,0 +1,16 @@
+{
+  "name": "blz-typedoc-theme",
+  "version": "0.0.1",
+  "scripts": {
+    "build:docs": "npx typedoc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "readme": "./README.md",
+  "customCss": "./media/styles/global.css",
+  "media": "./media",
+  "includeVersion": false,
+  "plugin": ["../"],
+  "theme": "my-theme",
+  "entryPoints": ["./src/index.ts"],
+  "sort": ["static-first", "kind", "enum-value-ascending"],
+  "out": "./docs",
+  "json": "./docs/media/site.json",
+  "searchGroupBoosts": {
+    "Classes": 1.5
+  },
+  "navigationLinks": {
+    "GitHub": "https://github.com/blazed-space/blz-typedoc-theme"
+  }
+}
